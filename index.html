@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b33ca0717d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resultado.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Cotizador de computadoras - grupo 4</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_flex">
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>  
+            <div class="logo_container">
+                <img src="img/logtipo_pdd.png" alt="lopotipo" class="logo">
+                <p class="texto_logo"><b>Innovatecno</b></p>
+            </div>
+            <nav class="nav_bar">
+                <ul>
+                    <li><a href="index.html">Herramienta</a></li>
+                    <li><a href="sistema_comentarios/comentarios.html">Comentarios</a></li>
+                    <li><a href="videos/videos.html">Videos</a></li>
+                    <li><a href="encuesta/encuesta.html">Encuesta</a></li>
+                </ul>
+
+            </nav>
+            <div class="redes_sociales">
+                <div class="fb">
+                    
+                    <a href="https://www.facebook.com/profile.php?id=100074271327307" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="yt">
+                    <a href="https://www.youtube.com/channel/UCwC6puPeij_t8CKd7YTIkJw" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="email">
+                    <a href="mailto:innovatecnoteam4@outlook.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="index.html">Herramienta</a>
+                <a href="sistema_comentarios/comentarios.html">Comentarios</a>
+                <a href="videos/videos.html">Videos</a>
+                <a href="encuesta/encuesta.html">Encuesta</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+
+    <div class="container_center_flex">
+        <h1 class="titulo_principal">COTIZADOR DE COMPUTADORAS</h1>
+        <form class="form" action="">
+            <div class="selectbox">
+                <div class="select " id="select">
+                    <div class="contenido_select">
+                        <h1 class="titulo">Selecciona tu motherboard</h1>
+                         <p class="descripcion">Aquí se conectan todos los componentes de una computadora.</p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="opciones" id="opciones">
+                    <a href="#" class="opcion">
+                         <div class="contenido_opcion">
+                            <img src="img/motherboard/1.-h410.jpg" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">H410M H</h2>
+                                <p class="descripcion">Ideal para uso doméstico, gaming o de oficina.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido_opcion">
+                            <img src="img/motherboard/2.-h510m.jpg" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">H510M H</h2>
+                                <p class="descripcion">Posee compatibilidad para procesadores de 11va generación y posee conector M.2</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido_opcion">
+                            <img src="img/motherboard/3.-b460.png" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">B460 - PLUS</h2>
+                                <p class="descripcion">No soporta la 11va generación, posee: soporte para Intel Optane, conector D-sub y DVI-D</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido_opcion">
+                            <img src="img/motherboard/4.-B560.jpg" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">B560 - PLUS</h2>
+                                <p class="descripcion">Soporta la 11va generación, posee 2 conectores M.2 y tiene tecnología Aura Sync. </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido_opcion">
+                            <img src="img/motherboard/5.-z490.jpg" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">Z490 - GAMING X AX</h2>
+                                <p class="descripcion">Es una placa de alta gama pensada para gaming, posee: compatibilidad para la 11va generación, conectores M.2, soporte para intel optane, Rbg y receptor wifi integrado.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido_opcion">
+                            <img src="img/motherboard/6.-z590.jpg" alt="">
+                            <div class="textos">
+                                <h2 class="titulo">Z590 UD</h2>
+                                <p class="descripcion">Soporta la 11va generación, posee: capacidad para conectar 4 DIMMS de ram, displayPort, 3 conectores M.2 y soporte para USB 3.2 GEN1 Tipo - C </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--Segundo select_box_____________________________________________________________________________________________________________-->
+
+
+            <div class="segundoselectbox">
+                <div class="segundoselect " id="segundoselect">
+                    <div class="segundocontenido_select">
+                        <h1 class="segundotitulo">Selecciona tu procesador</h1>
+                         <p class="segundodescripcion">El precesador es el cerebro de una computadora.</p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="segundoopciones" id="segundoopciones">
+                    <a href="#" class="segundoopcion">
+                         <div class="segundocontenido_opcion">
+                            <img src="img/cpu/celeron.jpg" alt="">
+                            <div class="segundotextos">
+                                <h2 class="segundotitulo">Intel Celeron G5920</h2>
+                                <p class="segundodescripcion">Ideal para uso doméstico y de oficina.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="segundoopcion">
+                        <div class="segundocontenido_opcion">
+                            <img src="img/cpu/i310100.jpg" alt="">
+                            <div class="segundotextos">
+                                <h2 class="segundotitulo">Intel Core i3 10100</h2>
+                                <p class="segundodescripcion">Es opción versátil, sirve como gama de entrada para todos los ámbitos. </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="segundoopcion">
+                        <div class="segundocontenido_opcion">
+                            <img src="img/cpu/i510400.jpg" alt="">
+                            <div class="segundotextos">
+                                <h2 class="segundotitulo">Intel Core i5 10400</h2>
+                                <p class="segundodescripcion">Potencia considerable, usados para actividades de gran demanda.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="segundoopcion">
+                        <div class="segundocontenido_opcion">
+                            <img src="img/cpu/i710700k.jpg" alt="">
+                            <div class="segundotextos">
+                                <h2 class="segundotitulo">Intel Core i7 10700k</h2>
+                                <p class="segundodescripcion">Procesador de gama alta, sirve para trabajos que requieran una potencia grande de procesamiento.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="segundoopcion">
+                        <div class="segundocontenido_opcion">
+                            <img src="img/cpu/i910900k.jpg" alt="">
+                            <div class="segundotextos">
+                                <h2 class="segundotitulo">Intel Core i9 10900k</h2>
+                                <p class="segundodescripcion">Procesador tope de gama, tiene una potencia extrema, es usado para el procesamiento de datos enorme.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--tercer select_box____________________________________________________________________________________________________________-->
+
+
+            <div class="terceroselectbox">
+                <div class="terceroselect " id="terceroselect">
+                    <div class="tercerocontenido_select">
+                        <h1 class="tercerotitulo">Selecciona tu memoria ram</h1>
+                         <p class="tercerodescripcion">La ram permite almacenar temporalmente datos de todos los programas</p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="terceroopciones" id="terceroopciones">
+                    <a href="#" class="terceroopcion">
+                         <div class="tercerocontenido_opcion">
+                            <img src="img/ram/kingston.jpg" alt="">
+                            <div class="tercerotextos">
+                                <h2 class="tercerotitulo">Kingston DDR4 8Gb</h2>
+                                <p class="tercerodescripcion">Es lo normal a usar, aunque hoy en día poco a poco se va necesitando más.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="terceroopcion">
+                        <div class="tercerocontenido_opcion">
+                            <img src="img/ram/corsair.jpg" alt="">
+                            <div class="tercerotextos">
+                                <h2 class="tercerotitulo">Corsair Vengeance LPX DDR4 8Gb</h2>
+                                <p class="tercerodescripcion">Es lo normal a usar, aunque hoy en día poco a poco se va necesitando más.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="terceroopcion">
+                        <div class="tercerocontenido_opcion">
+                            <img src="img/ram/corsair.jpg" alt="">
+                            <div class="tercerotextos">
+                                <h2 class="tercerotitulo">Corsair Vengeance LPX DDR4 16Gb</h2>
+                                <p class="tercerodescripcion">Ideal para gaming y trabajos de todo tipo.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="terceroopcion">
+                        <div class="tercerocontenido_opcion">
+                            <img src="img/ram/corsair.jpg" alt="">
+                            <div class="tercerotextos">
+                                <h2 class="tercerotitulo">Corsair Vengeance LPX DDR4 32Gb</h2>
+                                <p class="tercerodescripcion">Ideal para trabajos de edición en 4k</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="terceroopcion">
+                        <div class="tercerocontenido_opcion">
+                            <img src="img/ram/viper.jpg" alt="">
+                            <div class="tercerotextos">
+                                <h2 class="tercerotitulo">Patriot Viper Steel DDR4 8Gb</h2>
+                                <p class="tercerodescripcion">Es lo normal a usar, aunque hoy en día poco a poco se va necesitando más.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="terceroopcion">
+                        <div class="tercerocontenido_opcion">
+                            <img src="img/ram/viper.jpg" alt="">
+                            <div class="tercerotextos">
+                                <h2 class="tercerotitulo">Patriot Viper Steel DDR4 16Gb</h2>
+                                <p class="tercerodescripcion">Ideal para gaming y trabajos de todo tipo.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="terceroopcion">
+                        <div class="tercerocontenido_opcion">
+                            <img src="img/ram/viper.jpg" alt="">
+                            <div class="tercerotextos">
+                                <h2 class="tercerotitulo">Patriot Viper Steel DDR4 32Gb</h2>
+                                <p class="tercerodescripcion">Ideal para trabajos de edición en 4k.</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+                </div>
+            </div>
+
+
+            <!--cuarto select_box____________________________________________________________________________________________________________-->
+
+
+            <div class="cuartoselectbox">
+                <div class="cuartoselect " id="cuartoselect">
+                    <div class="cuartocontenido_select">
+                        <h1 class="cuartotitulo">Selecciona tu fuente de poder</h1>
+                         <p class="cuartodescripcion">Es la que brinda la alimentación al equipo (nunca elegir genéricas)</p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="cuartoopciones" id="cuartoopciones">
+                    <a href="#" class="cuartoopcion">
+                         <div class="cuartocontenido_opcion">
+                            <img src="img/fuente de poder/evga.jpg" alt="">
+                            <div class="cuartotextos">
+                                <h2 class="cuartotitulo">Evga 600w 80plus white</h2>
+                                <p class="cuartodescripcion">Es una de las mejores fuentes de poder económicas.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="cuartoopcion">
+                        <div class="cuartocontenido_opcion">
+                            <img src="img/fuente de poder/evga850w.jpg" alt="">
+                            <div class="cuartotextos">
+                                <h2 class="cuartotitulo">Evga 850 BQ 80plus bronce</h2>
+                                <p class="cuartodescripcion">Es una fuente de poder de 800w semimodular</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="cuartoopcion">
+                        <div class="cuartocontenido_opcion">
+                            <img src="img/fuente de poder/termal600w.jpg" alt="">
+                            <div class="cuartotextos">
+                                <h2 class="cuartotitulo">ThermalTake 600w 80plus white</h2>
+                                <p class="cuartodescripcion">Fuente de poder buena, bonita y barata.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--quinto select_box____________________________________________________________________________________________________________-->
+
+
+            <div class="quintoselectbox">
+                <div class="quintoselect " id="quintoselect">
+                    <div class="quintocontenido_select">
+                        <h1 class="quintotitulo">Selecciona tu disco duro</h1>
+                         <p class="quintodescripcion">Es el dispositivo que guarda la información del computador.</p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="quintoopciones" id="quintoopciones">
+                    <a href="#" class="quintoopcion">
+                         <div class="quintocontenido_opcion">
+                            <img src="img/disco duro/seagate500g.jpg" alt="">
+                            <div class="quintotextos">
+                                <h2 class="quintotitulo">Seagate 500gb</h2>
+                                <p class="quintodescripcion">Bueno y barato.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="quintoopcion">
+                        <div class="quintocontenido_opcion">
+                            <img src="img/disco duro/seagate1tb.jpg" alt="">
+                            <div class="quintotextos">
+                                <h2 class="quintotitulo">Seagate 1Tb</h2>
+                                <p class="quintodescripcion">Es lo considerado normal en un equipo.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="quintoopcion">
+                        <div class="quintocontenido_opcion">
+                            <img src="img/disco duro/wb1tb.jpg" alt="">
+                            <div class="quintotextos">
+                                <h2 class="quintotitulo">Western Digital 1Tb</h2>
+                                <p class="quintodescripcion">Disco duro de una muy buena marca.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="quintoopcion">
+                        <div class="quintocontenido_opcion">
+                            <img src="img/disco duro/ssd.jpg" alt="">
+                            <div class="quintotextos">
+                                <h2 class="quintotitulo">Kingston ssd 240Gb</h2>
+                                <p class="quintodescripcion">Es una unidad de estado sólido, posee más velocidad que un disco duro (los programas abrirán más rápdio)</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--sexto select_box____________________________________________________________________________________________________________-->
+
+
+            <div class="sextoselectbox">
+                <div class="sextoselect " id="sextoselect">
+                    <div class="sextocontenido_select">
+                        <h1 class="sextotitulo">Selecciona tu tarjeta de video</h1>
+                         <p class="sextodescripcion">Generalmente usa para ejecutar juegos y trabajos de edición de video e imagenes.</p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="sextoopciones" id="sextoopciones">
+                    <a href="#" class="sextoopcion">
+                         <div class="sextocontenido_opcion">
+                            <img src="img/tarjeta de video/gtx1030.jpg" alt="">
+                            <div class="sextotextos">
+                                <h2 class="sextotitulo">Gt 1030</h2>
+                                <p class="sextodescripcion">Gama baja, puede servir para conectar más monitores, posee un bajo rendimiento</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="sextoopcion">
+                        <div class="sextocontenido_opcion">
+                            <img src="img/tarjeta de video/gtx1050ti.jpg" alt="">
+                            <div class="sextotextos">
+                                <h2 class="sextotitulo">Gtx 1050 ti</h2>
+                                <p class="sextodescripcion">Gama de entrada, permite jugar juegos no tan demandantes a una calidad moderada, puede servir para edición de videos no tan demandantes</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="sextoopcion">
+                        <div class="sextocontenido_opcion">
+                            <img src="img/tarjeta de video/gtx1650.jpg" alt="">
+                            <div class="sextotextos">
+                                <h2 class="sextotitulo">Gtx 1650 oc</h2>
+                                <p class="sextodescripcion">Buena opción para todos los ámbitos.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="sextoopcion">
+                        <div class="sextocontenido_opcion">
+                            <img src="img/tarjeta de video/gtx1660.jpg" alt="">
+                            <div class="sextotextos">
+                                <h2 class="sextotitulo">Gtx 1660 oc</h2>
+                                <p class="sextodescripcion">Posee un rendimiento medio, es ideal para juegos demandantes y trabajos de edición de todo tipo.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="sextoopcion">
+                        <div class="sextocontenido_opcion">
+                            <img src="img/tarjeta de video/rtx2080.jpg" alt="">
+                            <div class="sextotextos">
+                                <h2 class="sextotitulo">Rtx 2080 oc</h2>
+                                <p class="sextodescripcion">Gama alto, ideal para juegos 4k y trabajos de edición demandantes.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <!--septimo select_box____________________________________________________________________________________________________________-->
+
+            <div class="septimoselectbox">
+                <div class="septimoselect " id="septimoselect">
+                    <div class="septimocontenido_select">
+                        <h1 class="septimotitulo">Selecciona tu case</h1>
+                         <p class="septimodescripcion">Dentro de el se albergan todos los componentes de un pc.</p>
+                    </div>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="septimoopciones" id="septimoopciones">
+                    <a href="#" class="septimoopcion">
+                         <div class="septimocontenido_opcion">
+                            <img src="img/case/casegenerico.jpg" alt="">
+                            <div class="septimotextos">
+                                <h2 class="septimotitulo">Case normal</h2>
+                                <p class="septimodescripcion">Es lo más común, cumple bien su función.</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="septimoopcion">
+                        <div class="septimocontenido_opcion">
+                            <img src="img/case/casega.png" alt="">
+                            <div class="septimotextos">
+                                <h2 class="septimotitulo">Case gamer</h2>
+                                <p class="septimodescripcion">Poseen luces rgb y ventiladores incorporados que ayudan a un mejor flujo de aire.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <input type="hidden" name="motherboard" id="inputSelect" value="">
+            <input type="hidden" name="cpu" id="segundoinputSelect" value="">
+            <input type="hidden" name="ram" id="terceroinputSelect" value="">
+            <input type="hidden" name="fp" id="cuartoinputSelect" value="">
+            <input type="hidden" name="dd" id="quintoinputSelect" value="">
+            <input type="hidden" name="tv" id="sextoinputSelect" value="">
+            <input type="hidden" name="case" id="septimoinputSelect" value="">
+        </form>
+
+        <div class="resultado">
+            <h2 class="title_re"> Resultados de la cotización</h2>
+            <div class="cont_container_flex">
+                <div class="container_r">
+                    <p id="mo">Motherboard:</p>
+                    <p id="pro">Procesador:</p>
+                    <p id="ram">Ram:</p>
+                    <p id="fp">Fuente de poder:</p>
+                    <p id="dd">Almacenamiento:</p>
+                    <p id="tv">Tarjeta de video:</p>
+                    <p id="ca">Case:</p>
+                    <p id="total"><b>Total:</b></p>
+                </div>
+                <div class="valores_re">
+                    <p id="va_mo">0</p>
+                    <p id="va_pro">0</p>
+                    <p id="va_ram">0</p>
+                    <p id="va_fp">0</p>
+                    <p id="va_dd">0</p>
+                    <p id="va_tv">0</p>
+                    <p id="va_ca">0</p>
+                    <p id="va_total"><b>0</b></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <footer>
+            <p class="texto_footer"><b>Con cariño, de parte del grupo #4 ♥. Copyright 2021.</b></p>
+       
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
