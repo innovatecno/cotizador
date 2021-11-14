@@ -67,6 +67,7 @@ body{
 .comentarios_flex{
     align-items: center;
     width: 60% ;
+    height: 63vh;
 }
 @media screen and (max-width:763px){
     .comentarios_flex{

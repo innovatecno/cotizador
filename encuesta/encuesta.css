@@ -1,7 +1,7 @@
 .encuesta{
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     width:60%;
-    height:400px;
+    height:490px;
 }
 @media screen and (max-width:763px){
     .encuesta{
