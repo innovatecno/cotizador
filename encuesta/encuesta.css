@@ -1,3 +1,11 @@
 .encuesta{
     margin-bottom: 40px;
+    width:60%;
+    height:400px;
 }
+@media screen and (max-width:763px){
+    .encuesta{
+        width:90%;
+        height:100vh;
+    }
+} 

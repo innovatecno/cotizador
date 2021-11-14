@@ -68,6 +68,12 @@ body{
     align-items: center;
     width: 60% ;
 }
+@media screen and (max-width:763px){
+    .comentarios_flex{
+        
+        width: 90% ;
+    }
+}
 /*PARTE DE ARRIBA*/
 .btn-menu{
     display: none;
